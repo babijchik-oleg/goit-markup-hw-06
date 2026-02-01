@@ -915,7 +915,7 @@ outline: none;
      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.modal-check:checked +.modal-check-label span {
+.modal-check:checked +.modal-check-label .modal-span-icon {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -954,11 +954,11 @@ fill: transparent;
 }
 
 .modal-chek-text {
-    display: block;
+ 
 }
 
 .modal-check-text a {
-    display: block;
+    
     margin-top: 4px;
     line-height: 1.33;
 text-decoration: underline;
